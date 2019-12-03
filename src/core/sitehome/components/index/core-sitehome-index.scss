@@ -1,0 +1,90 @@
+$largeScreen: 767px;
+
+ion-app.app-root core-sitehome-index 
+{
+    height: 100%;
+    .main-container{
+        height: -webkit-fill-available;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2px;
+        margin-right: 2px;
+        
+    }
+    .container{
+        height: -webkit-fill-available;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 2px;
+        margin-right: 5px;
+        
+    }
+    .sub-container{
+        // height: -webkit-fill-available;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 2px;
+        margin-right: 8px;
+        margin-top: 10px;
+        background-color: #ffffff;
+
+    }
+    .row-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 200px;
+        background-color: #83A2C1;
+        max-width: 30vw;
+        min-width: 29vw;
+        border-radius: 5px;
+        margin-top: 10px;
+        // padding-right: 2vw;
+        // flex: 1;
+    }
+
+    .column-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        &:nth-child(3n+3){
+            margin-right: 0!important; 
+        }
+
+        @media screen and (min-width: $largeScreen) {
+            margin-right: 3vw!important;
+            }
+    }
+    .search-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 55px;
+        margin: 10px;
+        background-color: #cccccc;
+
+        input {
+            padding: 0.7rem;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            width: 10rem;
+            margin-right: 1rem;
+        }
+
+        button {
+            background: #000000;
+            color: #ffffff;
+            padding: 1rem;
+            border-radius: 4px;
+            height: 3rem;
+        }
+    }
+}

@@ -16,6 +16,7 @@ import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
 import { CoreCoursesMyCoursesComponent } from '../../components/my-courses/my-courses';
 
+
 /**
  * Page that displays the list of courses the user is enrolled in.
  */
@@ -27,7 +28,12 @@ import { CoreCoursesMyCoursesComponent } from '../../components/my-courses/my-co
 export class CoreCoursesMyCoursesPage {
     @ViewChild(CoreCoursesMyCoursesComponent) mcComponent: CoreCoursesMyCoursesComponent;
 
-    constructor(private navCtrl: NavController) { }
+    id:number;
+
+    constructor(private navCtrl: NavController) { 
+
+        
+    }
 
     /**
      * Go to search courses.

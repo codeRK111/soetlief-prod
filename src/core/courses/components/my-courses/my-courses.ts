@@ -21,6 +21,7 @@ import { CoreCoursesProvider } from '../../providers/courses';
 import { CoreCoursesHelperProvider } from '../../providers/helper';
 import { CoreCourseHelperProvider } from '@core/course/providers/helper';
 import { CoreCourseOptionsDelegate } from '@core/course/providers/options-delegate';
+import { NavParams } from 'ionic-angular';
 
 /**
  * Component that displays the list of courses the user is enrolled in.
@@ -46,11 +47,15 @@ export class CoreCoursesMyCoursesComponent implements OnInit, OnDestroy {
     protected siteUpdatedObserver;
     protected isDestroyed = false;
     protected courseIds = '';
+    id:number;
 
     constructor(private coursesProvider: CoreCoursesProvider,
             private domUtils: CoreDomUtilsProvider, private eventsProvider: CoreEventsProvider,
             private sitesProvider: CoreSitesProvider, private courseHelper: CoreCourseHelperProvider,
-            private courseOptionsDelegate: CoreCourseOptionsDelegate, private coursesHelper: CoreCoursesHelperProvider) { }
+            private courseOptionsDelegate: CoreCourseOptionsDelegate, private coursesHelper: CoreCoursesHelperProvider,private  navParams:NavParams) {
+                this.id=this.navParams.get('id');
+                console.log("----++",this.id);
+             }
 
     /**
      * Component being initialized.
@@ -88,11 +93,16 @@ export class CoreCoursesMyCoursesComponent implements OnInit, OnDestroy {
      */
     protected fetchCourses(): Promise<any> {
         return this.coursesProvider.getUserCourses().then((courses) => {
+            courses=courses.filter((data) =>
+            {
+                return data.category == this.id ;
+            }); 
             const promises = [],
                 courseIds = courses.map((course) => {
                 return course.id;
             });
 
+            let courseCats = courses.filter((ct)=>ct.category == 6);
             this.courseIds = courseIds.join(',');
 
             promises.push(this.coursesHelper.loadCoursesExtraInfo(courses));

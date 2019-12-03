@@ -20,6 +20,8 @@ import { CoreCourseHelperProvider } from '@core/course/providers/helper';
 import { CoreCourseModulePrefetchDelegate } from '@core/course/providers/module-prefetch-delegate';
 import { CoreBlockCourseBlocksComponent } from '@core/block/components/course-blocks/course-blocks';
 import { CoreSite } from '@classes/site';
+import { CoreCoursesProvider } from '@core/courses/providers/courses';
+import { NavController } from 'ionic-angular';
 
 /**
  * Component that displays site home index.
@@ -38,12 +40,23 @@ export class CoreSiteHomeIndexComponent implements OnInit {
     items: any[] = [];
     siteHomeId: number;
     currentSite: CoreSite;
+    couresCat:any[];
+    category:any[];
 
     constructor(private domUtils: CoreDomUtilsProvider, sitesProvider: CoreSitesProvider,
             private courseProvider: CoreCourseProvider, private courseHelper: CoreCourseHelperProvider,
-            private prefetchDelegate: CoreCourseModulePrefetchDelegate) {
+            private prefetchDelegate: CoreCourseModulePrefetchDelegate,coreCoursesProvider:CoreCoursesProvider, public navCtrl: NavController) {
         this.currentSite = sitesProvider.getCurrentSite();
         this.siteHomeId = this.currentSite.getSiteHomeId();
+
+        coreCoursesProvider.getCategories(0,true).then((data)=>{
+            console.log("------->",data);
+            this.couresCat=data;
+            this.category=data.filter( cat => {
+                return cat.parent == 0;
+            })
+            console.log("------->",this.category)
+        });
     }
 
     /**
@@ -145,5 +158,8 @@ export class CoreSiteHomeIndexComponent implements OnInit {
         }).catch((error) => {
             this.domUtils.showErrorModalDefault(error, 'core.course.couldnotloadsectioncontent', true);
         });
+    }
+    onCategoryButtonPress(id:number,name:string){
+        this.navCtrl.push('CourseCategoryPage',{id,name});
     }
 }

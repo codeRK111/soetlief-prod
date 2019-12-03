@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Soetlief.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>D497530B6FE93358F98ED9E295AFAFE05DB4C2C2</string>
+				<key>dateExpires</key>
+				<string>24/11/2020</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2N25DYU5F3.com.onlineacademy.soetlief</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2N25DYU5F3</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Soetlief.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>5a2360ba-6398-4d42-9c3e-813cb23d54d2</string>
+				<key>name</key>
+				<string>Soetlief Development Certificate</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2N25DYU5F3</string>
+				<key>name</key>
+				<string>Nitascha Van der Westhuyzen</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
