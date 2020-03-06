@@ -1,0 +1,106 @@
+
+App Thinning Size Report for All Variants of Soetlief
+
+Variant: Soetlief-0320704E-84D7-4DE1-94B6-46C658FB16BA.ipa
+Supported variant descriptors: [device: iPhone9,2, os-version: 13.0], [device: iPhone12,5, os-version: 13.0], [device: iPhone11,2, os-version: 13.0], [device: iPhone10,2, os-version: 13.0], [device: iPhone10,3, os-version: 13.0], [device: iPhone11,6, os-version: 13.0], [device: iPhone10,6, os-version: 13.0], [device: iPhone8,2, os-version: 13.0], [device: iPhone9,4, os-version: 13.0], [device: iPhone10,5, os-version: 13.0], [device: iPhone12,3, os-version: 13.0], and [device: iPhone11,4, os-version: 13.0]
+App + On Demand Resources size: 16 MB compressed, 61.1 MB uncompressed
+App size: 16 MB compressed, 61.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-08CD2AE5-8FCD-4D28-8ABA-20022DE1FF52.ipa
+Supported variant descriptors: [device: iPad8,2, os-version: 13.0], [device: iPad8,1, os-version: 13.0], [device: iPad6,8, os-version: 13.0], [device: iPad6,12, os-version: 13.0], [device: iPad8,3, os-version: 13.0], [device: iPad6,3, os-version: 13.0], [device: iPad7,6, os-version: 13.0], [device: iPad5,2, os-version: 13.0], [device: iPad8,8, os-version: 13.0], [device: iPad8,7, os-version: 13.0], [device: iPad8,4, os-version: 13.0], [device: iPad11,4, os-version: 13.0], [device: iPad6,11, os-version: 13.0], [device: iPad8,6, os-version: 13.0], [device: iPad5,4, os-version: 13.0], [device: iPad11,1, os-version: 13.0], [device: iPad8,5, os-version: 13.0], [device: iPad11,2, os-version: 13.0], [device: iPad7,5, os-version: 13.0], [device: iPad7,12, os-version: 13.0], [device: iPad7,4, os-version: 13.0], [device: iPad6,7, os-version: 13.0], [device: iPad7,11, os-version: 13.0], [device: iPad5,1, os-version: 13.0], [device: iPad7,1, os-version: 13.0], [device: iPad11,3, os-version: 13.0], [device: iPad7,3, os-version: 13.0], [device: iPad7,2, os-version: 13.0], [device: iPad5,3, os-version: 13.0], and [device: iPad6,4, os-version: 13.0]
+App + On Demand Resources size: 16 MB compressed, 61 MB uncompressed
+App size: 16 MB compressed, 61 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-09334939-2384-4DA5-8AE9-CB2DFDCB1475.ipa
+Supported variant descriptors: [device: iPhone9,1, os-version: 13.0], [device: iPhone8,4, os-version: 13.0], [device: iPhone9,3, os-version: 13.0], [device: iPhone10,1, os-version: 13.0], [device: iPhone10,4, os-version: 13.0], [device: iPhone8,1, os-version: 13.0], and [device: iPod9,1, os-version: 13.0]
+App + On Demand Resources size: 15.9 MB compressed, 61 MB uncompressed
+App size: 15.9 MB compressed, 61 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-13E0BDE2-7B4B-48D0-ABAF-E97BE1D01CDB.ipa
+Supported variant descriptors: [device: iPad4,1, os-version: 9.0], [device: iPad6,3, os-version: 9.0], [device: iPad5,2, os-version: 9.0], [device: iPad4,5, os-version: 9.0], [device: iPad4,6, os-version: 9.0], [device: iPad4,2, os-version: 9.0], [device: iPad5,3, os-version: 9.0], [device: iPad7,6, os-version: 11.0], [device: iPad6,11, os-version: 10.0], [device: iPad7,5, os-version: 11.0], [device: iPad4,9, os-version: 9.0], [device: iPad7,2, os-version: 10.0], [device: iPad4,3, os-version: 9.0], [device: iPad7,3, os-version: 10.0], [device: iPad6,12, os-version: 10.0], [device: iPad4,7, os-version: 9.0], [device: iPad6,4, os-version: 9.0], [device: iPad5,1, os-version: 9.0], [device: iPad5,4, os-version: 9.0], [device: iPad6,7, os-version: 9.0], [device: iPad7,1, os-version: 10.0], [device: iPad7,4, os-version: 10.0], [device: iPad4,8, os-version: 9.0], [device: iPad6,8, os-version: 9.0], and [device: iPad4,4, os-version: 9.0]
+App + On Demand Resources size: 16 MB compressed, 61.1 MB uncompressed
+App size: 16 MB compressed, 61.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-19AB5E78-A8AB-4182-A7E4-364191B4CA1F.ipa
+Supported variant descriptors: [device: iPhone5,4, os-version: 9.0], [device: iPhone4,1, os-version: 9.0], [device: iPhone5,2, os-version: 9.0], [device: iPhone5,3, os-version: 9.0], [device: iPod5,1, os-version: 9.0], and [device: iPhone5,1, os-version: 9.0]
+App + On Demand Resources size: 16 MB compressed, 60.4 MB uncompressed
+App size: 16 MB compressed, 60.4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-3126411D-A69E-4B34-9E05-7FBC6819C289.ipa
+Supported variant descriptors: [device: iPhone8,2, os-version: 9.0], [device: iPhone10,3, os-version: 11.0], [device: iPhone9,2, os-version: 10.0], [device: iPhone9,4, os-version: 10.0], [device: iPhone7,1, os-version: 9.0], [device: iPhone10,5, os-version: 11.0], [device: iPhone10,6, os-version: 11.0], and [device: iPhone10,2, os-version: 11.0]
+App + On Demand Resources size: 16 MB compressed, 61.1 MB uncompressed
+App size: 16 MB compressed, 61.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-3CBDC60E-2FC6-4851-9AF8-EA6875455D52.ipa
+Supported variant descriptors: [device: iPhone6,2, os-version: 12.0], [device: iPhone7,2, os-version: 12.0], [device: iPhone6,2, os-version: 12.2], [device: iPhone9,1, os-version: 12.2], [device: iPod7,1, os-version: 12.2], [device: iPhone8,1, os-version: 12.2], [device: iPhone10,1, os-version: 12.2], [device: iPhone6,1, os-version: 12.0], [device: iPhone10,4, os-version: 12.0], [device: iPod7,1, os-version: 12.0], [device: iPhone6,1, os-version: 12.2], [device: iPhone7,2, os-version: 12.2], [device: iPhone9,3, os-version: 12.0], [device: iPod9,1, os-version: 12.2], [device: iPhone8,4, os-version: 12.0], [device: iPhone9,3, os-version: 12.2], [device: iPhone10,1, os-version: 12.0], [device: iPhone8,1, os-version: 12.0], [device: iPhone10,4, os-version: 12.2], [device: iPhone8,4, os-version: 12.2], and [device: iPhone9,1, os-version: 12.0]
+App + On Demand Resources size: 15.9 MB compressed, 61 MB uncompressed
+App size: 15.9 MB compressed, 61 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-4ABD0161-BF8A-4734-A564-3A0BAF358BF1.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 12.0] and [device: iPhone11,8, os-version: 12.2]
+App + On Demand Resources size: 15.9 MB compressed, 61 MB uncompressed
+App size: 15.9 MB compressed, 61 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-6853D62D-7233-45B6-8743-8EEF469234C4.ipa
+Supported variant descriptors: [device: iPhone11,2, os-version: 12.2], [device: iPhone11,6, os-version: 12.2], [device: iPhone10,2, os-version: 12.0], [device: iPhone11,4, os-version: 12.2], [device: iPhone7,1, os-version: 12.2], [device: iPhone10,5, os-version: 12.0], [device: iPhone10,3, os-version: 12.0], [device: iPhone11,4, os-version: 12.0], [device: iPhone8,2, os-version: 12.0], [device: iPhone9,2, os-version: 12.2], [device: iPhone8,2, os-version: 12.2], [device: iPhone10,2, os-version: 12.2], [device: iPhone10,6, os-version: 12.0], [device: iPhone10,6, os-version: 12.2], [device: iPhone7,1, os-version: 12.0], [device: iPhone11,6, os-version: 12.0], [device: iPhone9,2, os-version: 12.0], [device: iPhone9,4, os-version: 12.0], [device: iPhone10,3, os-version: 12.2], [device: iPhone10,5, os-version: 12.2], [device: iPhone9,4, os-version: 12.2], and [device: iPhone11,2, os-version: 12.0]
+App + On Demand Resources size: 16 MB compressed, 61.1 MB uncompressed
+App size: 16 MB compressed, 61.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-82C55A06-2166-40E4-947E-EC59EBC639FA.ipa
+Supported variant descriptors: [device: iPad2,5, os-version: 9.0], [device: iPad2,4, os-version: 9.0], [device: iPad2,2, os-version: 9.0], [device: iPad2,1, os-version: 9.0], [device: iPad2,6, os-version: 9.0], [device: iPad2,3, os-version: 9.0], and [device: iPad2,7, os-version: 9.0]
+App + On Demand Resources size: 16 MB compressed, 60.5 MB uncompressed
+App size: 16 MB compressed, 60.5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-8CB4A476-8219-474A-A9FA-F6075EBCF1A7.ipa
+Supported variant descriptors: [device: iPhone7,2, os-version: 9.0], [device: iPhone8,1, os-version: 9.0], [device: iPhone10,4, os-version: 11.0], [device: iPhone8,4, os-version: 9.0], [device: iPhone6,2, os-version: 9.0], [device: iPod7,1, os-version: 9.0], [device: iPhone9,1, os-version: 10.0], [device: iPhone6,1, os-version: 9.0], [device: iPhone9,3, os-version: 10.0], and [device: iPhone10,1, os-version: 11.0]
+App + On Demand Resources size: 15.9 MB compressed, 61 MB uncompressed
+App size: 15.9 MB compressed, 61 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-D3BEE3B2-F8FA-488B-A0D1-17ED05634F1A.ipa
+Supported variant descriptors: [device: iPad3,3, os-version: 9.0], [device: iPad3,1, os-version: 9.0], [device: iPad3,4, os-version: 9.0], [device: iPad3,5, os-version: 9.0], [device: iPad3,6, os-version: 9.0], and [device: iPad3,2, os-version: 9.0]
+App + On Demand Resources size: 16 MB compressed, 60.4 MB uncompressed
+App size: 16 MB compressed, 60.4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-D86C20BB-31F3-47F3-9FD7-3B4D1D3076EF.ipa
+Supported variant descriptors: [device: iPhone11,8, os-version: 13.0] and [device: iPhone12,1, os-version: 13.0]
+App + On Demand Resources size: 15.9 MB compressed, 61 MB uncompressed
+App size: 15.9 MB compressed, 61 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief-EF7C104F-8611-4E07-B8E6-E41E4782507C.ipa
+Supported variant descriptors: [device: iPad11,1, os-version: 12.2], [device: iPad5,3, os-version: 12.2], [device: iPad4,5, os-version: 12.2], [device: iPad8,7, os-version: 12.0], [device: iPad8,8, os-version: 12.0], [device: iPad4,3, os-version: 12.2], [device: iPad4,7, os-version: 12.2], [device: iPad6,12, os-version: 12.2], [device: iPad4,3, os-version: 12.0], [device: iPad7,4, os-version: 12.2], [device: iPad6,8, os-version: 12.2], [device: iPad7,3, os-version: 12.0], [device: iPad4,1, os-version: 12.2], [device: iPad11,4, os-version: 12.2], [device: iPad6,3, os-version: 12.2], [device: iPad4,2, os-version: 12.0], [device: iPad8,4, os-version: 12.2], [device: iPad7,3, os-version: 12.2], [device: iPad7,1, os-version: 12.2], [device: iPad7,1, os-version: 12.0], [device: iPad11,2, os-version: 12.2], [device: iPad5,4, os-version: 12.2], [device: iPad11,3, os-version: 12.2], [device: iPad6,11, os-version: 12.0], [device: iPad8,1, os-version: 12.0], [device: iPad8,1, os-version: 12.2], [device: iPad8,5, os-version: 12.2], [device: iPad5,3, os-version: 12.0], [device: iPad8,2, os-version: 12.2], [device: iPad5,1, os-version: 12.2], [device: iPad4,9, os-version: 12.0], [device: iPad6,3, os-version: 12.0], [device: iPad8,7, os-version: 12.2], [device: iPad5,2, os-version: 12.2], [device: iPad8,8, os-version: 12.2], [device: iPad8,6, os-version: 12.2], [device: iPad4,4, os-version: 12.2], [device: iPad7,4, os-version: 12.0], [device: iPad4,7, os-version: 12.0], [device: iPad4,9, os-version: 12.2], [device: iPad6,12, os-version: 12.0], [device: iPad7,6, os-version: 12.0], [device: iPad5,2, os-version: 12.0], [device: iPad8,5, os-version: 12.0], [device: iPad8,6, os-version: 12.0], [device: iPad8,3, os-version: 12.0], [device: iPad7,5, os-version: 12.2], [device: iPad4,2, os-version: 12.2], [device: iPad6,4, os-version: 12.2], [device: iPad4,8, os-version: 12.0], [device: iPad5,1, os-version: 12.0], [device: iPad8,3, os-version: 12.2], [device: iPad6,4, os-version: 12.0], [device: iPad4,5, os-version: 12.0], [device: iPad4,4, os-version: 12.0], [device: iPad8,4, os-version: 12.0], [device: iPad6,11, os-version: 12.2], [device: iPad4,6, os-version: 12.0], [device: iPad7,6, os-version: 12.2], [device: iPad6,7, os-version: 12.0], [device: iPad7,2, os-version: 12.2], [device: iPad8,2, os-version: 12.0], [device: iPad5,4, os-version: 12.0], [device: iPad6,8, os-version: 12.0], [device: iPad7,2, os-version: 12.0], [device: iPad4,1, os-version: 12.0], [device: iPad6,7, os-version: 12.2], [device: iPad7,5, os-version: 12.0], [device: iPad4,6, os-version: 12.2], and [device: iPad4,8, os-version: 12.2]
+App + On Demand Resources size: 16 MB compressed, 61.1 MB uncompressed
+App size: 16 MB compressed, 61.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Soetlief.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 17.7 MB compressed, 64.2 MB uncompressed
+App size: 17.7 MB compressed, 64.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

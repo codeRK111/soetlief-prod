@@ -93,8 +93,10 @@ export class CoreCoursesMyCoursesComponent implements OnInit, OnDestroy {
      */
     protected fetchCourses(): Promise<any> {
         return this.coursesProvider.getUserCourses().then((courses) => {
+            console.log("courses----------->",courses);
             courses=courses.filter((data) =>
             {
+                console.log("------------------>",data)
                 return data.category == this.id ;
             }); 
             const promises = [],
@@ -102,7 +104,6 @@ export class CoreCoursesMyCoursesComponent implements OnInit, OnDestroy {
                 return course.id;
             });
 
-            let courseCats = courses.filter((ct)=>ct.category == 6);
             this.courseIds = courseIds.join(',');
 
             promises.push(this.coursesHelper.loadCoursesExtraInfo(courses));

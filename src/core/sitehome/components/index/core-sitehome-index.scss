@@ -4,7 +4,7 @@ ion-app.app-root core-sitehome-index
 {
     height: 100%;
     .main-container{
-        height: -webkit-fill-available;
+        
         display: flex;
         flex-direction: column;
         margin-left: 2px;
@@ -12,7 +12,7 @@ ion-app.app-root core-sitehome-index
         
     }
     .container{
-        height: -webkit-fill-available;
+        
         display: flex;
         flex-direction: row;
         justify-content: space-between;

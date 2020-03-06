@@ -59,7 +59,7 @@
     "@ionic-native/file-opener": "4.17.0",
     "@ionic-native/file-transfer": "4.17.0",
     "@ionic-native/globalization": "4.17.0",
-    "@ionic-native/in-app-browser": "4.17.0",
+    "@ionic-native/in-app-browser": "^4.20.0",
     "@ionic-native/keyboard": "4.17.0",
     "@ionic-native/local-notifications": "4.17.0",
     "@ionic-native/media-capture": "4.17.0",

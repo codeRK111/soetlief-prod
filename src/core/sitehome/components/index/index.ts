@@ -22,6 +22,7 @@ import { CoreBlockCourseBlocksComponent } from '@core/block/components/course-bl
 import { CoreSite } from '@classes/site';
 import { CoreCoursesProvider } from '@core/courses/providers/courses';
 import { NavController } from 'ionic-angular';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 /**
  * Component that displays site home index.
@@ -45,7 +46,7 @@ export class CoreSiteHomeIndexComponent implements OnInit {
 
     constructor(private domUtils: CoreDomUtilsProvider, sitesProvider: CoreSitesProvider,
             private courseProvider: CoreCourseProvider, private courseHelper: CoreCourseHelperProvider,
-            private prefetchDelegate: CoreCourseModulePrefetchDelegate,coreCoursesProvider:CoreCoursesProvider, public navCtrl: NavController) {
+            private prefetchDelegate: CoreCourseModulePrefetchDelegate,coreCoursesProvider:CoreCoursesProvider, public navCtrl: NavController, private inappBrowser: InAppBrowser) {
         this.currentSite = sitesProvider.getCurrentSite();
         this.siteHomeId = this.currentSite.getSiteHomeId();
 
@@ -53,7 +54,7 @@ export class CoreSiteHomeIndexComponent implements OnInit {
             console.log("------->",data);
             this.couresCat=data;
             this.category=data.filter( cat => {
-                return cat.parent == 0;
+                return cat.parent == 0 && cat.visible==1;
             })
             console.log("------->",this.category)
         });
@@ -159,7 +160,17 @@ export class CoreSiteHomeIndexComponent implements OnInit {
             this.domUtils.showErrorModalDefault(error, 'core.course.couldnotloadsectioncontent', true);
         });
     }
-    onCategoryButtonPress(id:number,name:string){
-        this.navCtrl.push('CourseCategoryPage',{id,name});
+    onCategoryButtonPress(id:number,name:string)
+    {
+        this.navCtrl.push('CoreCoursesMyCoursesPage',{id,name});
     }
+  
+    // onTotsButtonPress()
+    // {
+    //     this.inappBrowser.create('https://soetliefonline.com/course/index.php?categoryid=112',"_self");
+    // }
+    // onTroopsButtonPress()
+    // {
+    //     this.inappBrowser.create('https://soetliefonline.com/course/index.php?categoryid=114',"_self");
+    // }
 }

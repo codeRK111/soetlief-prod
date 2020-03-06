@@ -148,6 +148,8 @@ import { AddonQbehaviourModule } from '@addon/qbehaviour/qbehaviour.module';
 import { AddonQtypeModule } from '@addon/qtype/qtype.module';
 import { AddonStorageManagerModule } from '@addon/storagemanager/storagemanager.module';
 
+import {InAppBrowser} from '@ionic-native/in-app-browser';
+
 // For translate loader. AoT requires an exported function for factories.
 export function createTranslateLoader(http: HttpClient): TranslateHttpLoader {
     return new TranslateHttpLoader(http, './assets/lang/', '.json');
@@ -295,6 +297,7 @@ export const WP_PROVIDER: any = null;
         MoodleMobileApp
     ],
     providers: [
+        InAppBrowser,
         CoreLoggerProvider,
         CoreDbProvider,
         CoreAppProvider,
